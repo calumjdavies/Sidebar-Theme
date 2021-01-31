@@ -148,6 +148,7 @@ sup {
   font-size: 75%;
   line-height: 0;
   vertical-align: baseline;
+  display: inline-block;
 }
 
 sub {
@@ -156,6 +157,7 @@ sub {
 
 sup {
   top: -0.5em;
+  right:5px;
 }
 
 a {
@@ -7393,9 +7395,13 @@ button.bg-dark:focus {
   clip: auto;
   white-space: normal;
 }
-
+#little {
+  font-size: 25px;
+  position: relative;
+  left: -10px;
+}
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5) !important;
 }
 
 .shadow {
@@ -7403,7 +7409,7 @@ button.bg-dark:focus {
 }
 
 .shadow-lg {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5) !important;
 }
 
 .shadow-none {
@@ -10102,7 +10108,7 @@ section.resume-section .resume-section-content {
 
 .resume-section-content {
   background-color: #ffffffd6;
-  padding:10px 20px;
+  padding:10px 20px 20px;
 }
 
 @media (min-width: 768px) {
