@@ -112,7 +112,9 @@ dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
+.fa-ul{
+  margin-left:1.5rem;
+}
 ol ol,
 ul ul,
 ol ul,
